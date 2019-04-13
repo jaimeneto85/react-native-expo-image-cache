@@ -7,7 +7,7 @@
     "dist"
   ],
   "scripts": {
-    "compile": "rm -rf dist/* && babel . --out-dir dist --ignore node_modules,dist --source-maps",
+    "compile": "rm -rf dist/* && babel . --out-dir dist,dist --source-maps",
     "flow": "flow check --show-all-errors | flow-result-checker",
     "lint": "eslint App.js src/",
     "test": "yarn lint && yarn flow",
