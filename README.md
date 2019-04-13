@@ -14,10 +14,10 @@ Checkout this [medium story about react-native-expo-image-cache](https://medium.
 
 ## Installation
 
-This package has a peer dependency with React, React Native, and Expo.
+This package has a peer dependency with React, React Native, for bare Expo.
 
 ```
-yarn add react-native-expo-image-cache
+yarn add react-native-expo-image-cache@https://github.com/jaimeneto85/react-native-expo-image-cache
 ```
 
 ## Usage
